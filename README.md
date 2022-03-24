@@ -1,5 +1,4 @@
-# Shows some system info, do steps below to run using docker, or use sysmon_with_shell_output.py
+# Shows some system info, do steps below to run using docker
 
 docker image build -t sysmon .
-
 docker run -p {desired port}:5000 -t sysmon
